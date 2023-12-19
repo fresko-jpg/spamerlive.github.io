@@ -1,0 +1,19 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-top: 22px;
+}
+
+.inputs > *:last-child {
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 20px;
+}
